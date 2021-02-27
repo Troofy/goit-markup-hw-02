@@ -6,7 +6,7 @@
 --secondary-font-color: #FFFFFF;
 --description-font-color: #757575;
 --background-color: #2F303A;
---portfolio-btn-color: #F5F4FA;
+--secondary-background-color: #F5F4FA;
 }
 .link {
   text-decoration: none;
@@ -19,7 +19,7 @@ list-style: none;
 }
 body {
   font-family: var(--main-font);
-  color: var(--main-font-color);
+  color: var(--secondary-font-color);
 }
 
 /* ====ITEMS==== */
@@ -70,7 +70,7 @@ body {
 }
 .portfolio-btn {
   color: var(--main-font-color);
-  background: var(--portfolio-btn-color);
+  background: var(--secondary-background-color);
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -137,6 +137,9 @@ body {
   color: var(--main-font-color);
 }
 /* ====TEAM==== */
+.team {
+  background-color: #F5F4FA;
+}
 .team-title {
   font-family: var(--main-font);
   font-weight: 700;
