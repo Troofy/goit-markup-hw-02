@@ -31,7 +31,7 @@ body {
   color: var(--main-font-color);
 }
 .logo-first-part {
-  color: #2196F3;
+  color: var(--accent-color-link);
 }
 
 .navigation-link {
