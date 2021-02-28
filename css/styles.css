@@ -20,6 +20,7 @@ list-style: none;
 body {
   font-family: var(--main-font);
   color: var(--secondary-font-color);
+  font-weight: 500;
 }
 
 /* ====ITEMS==== */
@@ -34,9 +35,9 @@ body {
   color: var(--accent-color-link);
 }
 
-.navigation-link {
+.navigation-link,
+.contact {
   font-family: var(--main-font);
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -47,11 +48,6 @@ body {
   color: var(--accent-color-link);
 }
 .contact {
-  font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: var(--description-font-color);
 }
 .contact:hover,
@@ -76,6 +72,9 @@ body {
 .portfolio-btn:focus {
   color: var(--secondary-font-color);
   background: var(--accent-color-link);
+}
+.active {
+  color: var(--accent-color-link);
 }
 .footer-logo {
   font-family: var(--secondary-font);
@@ -150,7 +149,6 @@ body {
 }
 .name {
   font-family: var(--main-font);
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
